@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Finance App
 Overview
 
@@ -63,3 +64,6 @@ User Features
     Submit feedback about the workshops
     Earn points based on their learning activities
     Sign up as volunteers to assist in financial literacy initiatives
+=======
+# finance-app
+>>>>>>> 4447d6a84cc8728ee3529b4ada1be8c9a4eda1c4
