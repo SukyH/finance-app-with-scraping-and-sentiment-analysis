@@ -1,5 +1,5 @@
 
-Finance App
+Finance App (Capstone project)
 Overview
 
 This is a web-based application designed to promote financial literacy through interactive workshops and fun simulations. It provides a platform for users to earn points by completing various financial literacy actions. The project is a collaboration with GHD and is aimed at high school students (or potentially York University students) to engage them in financial learning and real-world applications of financial concepts.
