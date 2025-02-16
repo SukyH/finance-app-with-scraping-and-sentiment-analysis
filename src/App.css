@@ -1,0 +1,160 @@
+
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #7fcae3;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 1rem;       
+  color: #fa6b52;          
+  line-height: 1.6;       
+  padding: 10px;         
+  margin: 10px 0;        
+  background-color: #c1f572; 
+  border-radius: 5px;    
+}
+
+
+h1{
+  color: #7f6af8;
+  text-align: center;
+}
+
+h2 {
+  color: #ed2442;
+  text-align: center;
+}
+
+form {
+  background-color: rgb(222, 75, 75);
+  padding: 40px;
+  margin: 30px auto;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin: 30px auto;
+
+  text-align: center;
+  background-color: #199ddf;
+  color: rgb(108, 77, 210);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #010219;
+}
+
+.success-message {
+  text-align: center;
+  color: green;
+  margin-top: 10px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #ea7b1b;
+}
+
+
+.App-logo {
+  height: 20vmin; 
+  pointer-events: none;
+  transition: transform 0.3s ease-in-out; 
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+  font-size: calc(12px + 2vmin); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+/* Styled links */
+.App-link {
+  color: hsl(0, 86%, 59%);
+  text-decoration: none; 
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.App-link:hover {
+  color: #21a1f1; 
+}
+
+/* app.css */
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 2%;
+  gap: 20px; 
+  font-family: Arial, sans-serif; 
+}
+
+.nav-links a {
+  text-decoration: none; 
+  margin-right: 20px;
+  font-size: 1.1rem;  
+  color: #a94618; 
+  padding: 8px 2%;
+  transition: color 0.3s ease, transform 0.2s ease; 
+}
+
+.nav-links a:hover {
+  color: #0056b3; 
+  transform: translateY(-2px); 
+}
+nav a:last-child {
+  margin-right: 20 px; 
+}
+
+/* Keyframe for logo spin animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  
+}
