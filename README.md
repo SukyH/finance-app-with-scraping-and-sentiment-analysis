@@ -6,10 +6,18 @@ This is a web-based application designed to promote financial literacy through i
 
 The app includes features such as:
 
-    Feedback submission from users
-    Volunteer sign-ups
-    School partnerships for collaboration
+    User Registration & Authentication: Secure login and account management with Firebase.
+    Feedback submission
+    Admin Dashboard: Manage users, view feedback, and oversee school partnerships and volunteers.
+    Volunteer and School Partner sign-ups
     Financial education content
+    Sentiment Analysis (New Feature): Analyze user feedback to improve content and engagement.
+    Web Scraping (New Feature): Extract real-time financial news and trends to provide up-to-date information
+    
+
+
+
+
 
 Key Features
 1. User Registration & Authentication
@@ -25,7 +33,7 @@ Key Features
 3. Financial Literacy Workshops & Simulations
 
     Provides interactive workshops and simulations to teach financial literacy concepts.
-    Users can earn points for completing educational actions.
+
 
 4. Feedback & Interaction
 
@@ -41,6 +49,8 @@ Technologies Used
     Frontend: React.js, HTML, CSS
     Backend: Firebase (Firestore for data storage, Firebase Auth for authentication)
     Cloud Deployment: Firebase Hosting (for app deployment)
+    Machine Learning: TensorFlow/NLTK for sentiment analysis
+    BeautifulSoup/Scrapy for web scraping
 
 Capstone Project
 
@@ -64,6 +74,18 @@ User Features
     Submit feedback about the workshops
     Earn points based on their learning activities
     Sign up as volunteers to assist in financial literacy initiatives
+
+    Future Improvements
+
+Advanced Sentiment Analysis: Enhance feedback evaluation with deep learning models.
+
+AI-Powered Recommender System: Suggest financial literacy content tailored to users' preferences.
+
+Expanded Web Scraping: Automate financial data collection from multiple reliable sources.
+
+Interactive Simulations: Implement financial decision-making scenarios for hands-on learning.
+
+Mobile App Version: Expand accessibility with a mobile-friendly app.
 
     Acess it here online
    https://finance-app-a430d.web.app/
