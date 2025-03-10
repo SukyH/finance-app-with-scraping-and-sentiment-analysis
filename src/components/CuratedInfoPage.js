@@ -25,8 +25,9 @@ const CuratedInfoPage = () => {
   return (
     <div>
       <h2>Financial Literacy Resources</h2>
-      <p>Here, you will find curated articles, videos, and other resources to help you improve your financial knowledge.</p>
-
+      <p>Here, you will find curated articles, videos, and other resources to help you improve your financial knowledge, courtesy of Investopedia.
+      </p>
+      
       <div>
         <h3>Latest Financial News</h3>
         {financialNews.length > 0 ? (
