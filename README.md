@@ -2,7 +2,7 @@
 Finance App (Capstone project)
 Overview
 
-This is a web-based application designed to promote financial literacy through interactive workshops and fun simulations. It provides a platform for users to earn points by completing various financial literacy actions. The project is aimed at high school students (or potentially York University students) to engage them in financial learning and real-world applications of financial concepts.
+The Finance App is a web-based application designed to enhance financial literacy through interactive workshops, real-world simulations, and dynamic content. Targeted primarily at high school students (or potentially university students), this application allows users to earn points by completing various financial literacy actions. The project integrates sentiment analysis to assess the tone of financial news articles and uses web scraping to fetch real-time financial news and trends. The application uses cutting-edge technologies such as AWS Lambda, API Gateway, and Firebase to provide a seamless experience.
 
 The app includes features such as:
 
@@ -11,8 +11,8 @@ The app includes features such as:
     Admin Dashboard: Manage users, view feedback, and oversee school partnerships and volunteers.
     Volunteer and School Partner sign-ups
     Financial education content
-    Sentiment Analysis (New Feature): Analyze user feedback to improve content and engagement.
-    Web Scraping (New Feature): Extract real-time financial news and trends to provide up-to-date information
+    Sentiment Analysis : Analyze user feedback to improve content and engagement.
+    Web Scraping : Extract real-time financial news and trends to provide up-to-date information
     
 
 
@@ -44,17 +44,29 @@ Key Features
 
     Allows users to sign up as volunteers for various events and programs related to financial literacy.
 
+   6. Sentiment Analysis 
+
+    Analyzes the tone of financial news articles to assess whether the content is positive, negative, or neutral.
+    Uses AWS Lambda and API Gateway to process the text and classify sentiment in real time.
+    Helps users stay informed about market trends by understanding the emotional tone of the latest financial news.
+
+7. Web Scraping 
+
+    Fetches real-time financial news and market trends using web scraping.
+    Leverages AWS Lambda and API Gateway for seamless scraping and data extraction, which is then displayed to users directly within the app.
+
 Technologies Used
 
     Frontend: React.js, HTML, CSS
     Backend: Firebase (Firestore for data storage, Firebase Auth for authentication)
     Cloud Deployment: Firebase Hosting (for app deployment)
-    Machine Learning: TensorFlow/NLTK for sentiment analysis
+    Machine Learning: NLTK for sentiment analysis
     BeautifulSoup/Scrapy for web scraping
+    Cloud Services: AWS Lambda, API Gateway, AWS CloudShell (for handling sentiment analysis and web scraping)
 
 Capstone Project
 
-This project serves as my Capstone Project for the Computer Science program. The main goal is to provide high school students (or potentially university students) with a dynamic and interactive way to learn about personal finance, investments, budgeting, and other essential financial concepts. The project includes:
+This project serves as my Capstone Project for the Computer Science program. The main goal is to provide high school students (or potentially university students) with a dynamic and interactive way to learn about personal finance, investments, budgeting, and other essential financial concepts. By integrating real-time feedback, sentiment analysis, and web scraping, the app ensures users stay informed and engaged with the latest financial trends and news.The project includes:
 
     An interactive web app for learning
     Real-time feedback and data collection for admins to monitor user engagement
