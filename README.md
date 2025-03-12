@@ -44,7 +44,7 @@ Key Features
 
     Allows users to sign up as volunteers for various events and programs related to financial literacy.
 
-   6. Sentiment Analysis 
+6. Sentiment Analysis 
 
     Analyzes the tone of financial news articles to assess whether the content is positive, negative, or neutral.
     Uses AWS Lambda and API Gateway to process the text and classify sentiment in real time.
